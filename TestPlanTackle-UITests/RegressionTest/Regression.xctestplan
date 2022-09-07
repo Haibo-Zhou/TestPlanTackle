@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "5702ECEB-B2B6-478E-ABB0-7E5DE667A968",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "AutomatedRegression",
+        "MyXCTestBase"
+      ],
+      "target" : {
+        "containerPath" : "container:TestPlanTackle.xcodeproj",
+        "identifier" : "BF9C8D5B28C86C6A008645A3",
+        "name" : "TestPlanTackle-UITests"
+      }
+    }
+  ],
+  "version" : 1
+}
